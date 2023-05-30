@@ -1,0 +1,49 @@
+header {
+    background-color: red;
+    padding: 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.menu button {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#counter {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#count {
+    color: goldenrod;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+#starsContainer {
+    margin-top: 30px;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    background-image: url('pngwing.com.png');
+    background-size: cover;
+    display: inline-block;
+}
